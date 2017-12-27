@@ -1,7 +1,7 @@
 #include "task6.h"
 #include <string.h>
 
-char * makeClear (char * line) {
+char * clear (char * line) {
     int i = 0;
     int inWord = 0;
     //    checking first if there is a blankspace in the beginning:

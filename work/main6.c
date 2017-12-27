@@ -15,6 +15,6 @@ int main() {
     char line[200];
     printf("Please enter the line you want to clean up\n");
     fgets(line, 200, stdin);
-    printf("Here is cleaned line:\n%s\n", makeClear(line));
+    printf("Here is cleaned line:\n%s\n", clear(line));
     return 0;
 }

@@ -7,5 +7,4 @@
 //
 
 #include <stdio.h>
-
-char * makeClear (char * list); 
+char * clear(char * line);
